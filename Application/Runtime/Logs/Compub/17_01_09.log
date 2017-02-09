@@ -1,0 +1,22 @@
+[ 2017-01-09T11:26:56+08:00 ] ::1 /ling_test/compub/common/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2] Missing argument 1 for Common\Logic\BaseController::_initialize(), called in /Library/WebServer/Documents/ling_test/ThinkPHP/Library/Think/Controller.class.php on line 41 and defined /Library/WebServer/Documents/ling_test/Application/Common/Logic/BaseController.class.php 第 46 行.
+NOTIC: [8] Undefined index: p /Library/WebServer/Documents/ling_test/Application/Common/Logic/BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: pageSize /Library/WebServer/Documents/ling_test/Application/Common/Logic/BaseController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: initParams /Library/WebServer/Documents/ling_test/Application/Common/Logic/BaseController.class.php 第 52 行.
+INFO: <define>:<Compub><Common><test>:2017-01-09 11:26:56:'111111111111'
+INFO: <define>:<Compub><Common><test>:2017-01-09 11:26:56:'2'
+NOTIC: [8] Undefined variable: initParams /Library/WebServer/Documents/ling_test/Application/Common/Logic/BaseController.class.php 第 57 行.
+INFO: <define>:<Compub><Common><test>:2017-01-09 11:26:56:NULL
+NOTIC: [8] Undefined variable: initParams /Library/WebServer/Documents/ling_test/Application/Common/Logic/BaseController.class.php 第 59 行.
+INFO: <define>:<Compub><Common><test>:2017-01-09 11:26:56:'111111111111'
+NOTIC: [2] Missing argument 1 for I(), called in /Library/WebServer/Documents/ling_test/Application/Common/Util/Operation.class.php on line 30 and defined /Library/WebServer/Documents/ling_test/ThinkPHP/Common/functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name /Library/WebServer/Documents/ling_test/ThinkPHP/Common/functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name /Library/WebServer/Documents/ling_test/ThinkPHP/Common/functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name /Library/WebServer/Documents/ling_test/ThinkPHP/Common/functions.php 第 339 行.
+
